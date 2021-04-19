@@ -1,6 +1,6 @@
 <?php
 # @Date:   2020-12-31T09:12:14+00:00
-# @Last modified time: 2021-02-21T12:00:11+00:00
+# @Last modified time: 2021-02-21T12:06:13+00:00
 
 
 
@@ -19,4 +19,3 @@ class Course extends Model
         return $this->hasMany('App\Models\Enrolment');
     }
 }
-hello

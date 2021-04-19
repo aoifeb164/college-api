@@ -1,4 +1,9 @@
 <?php
+# @Date:   2020-12-31T09:12:14+00:00
+# @Last modified time: 2021-04-19T12:05:40+01:00
+
+
+
 
 use Illuminate\Support\Str;
 
@@ -15,7 +20,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
