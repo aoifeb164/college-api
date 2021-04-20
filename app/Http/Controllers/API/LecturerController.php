@@ -1,4 +1,9 @@
 <?php
+# @Date:   2020-12-31T09:12:14+00:00
+# @Last modified time: 2021-04-20T09:19:25+01:00
+
+
+
 
 namespace App\Http\Controllers\API;
 
@@ -93,7 +98,7 @@ class LecturerController extends Controller
             'name' => 'required|string|max:50',
             'address' => 'required|string|max:100',
             'phone' => 'required|string|max:20',
-            'email' => 'required|email|max:50|unique:lecturers,id,' . $id
+            'email' => 'required|email|max:50|unique:lecturers,email,' . $id
         ]);
 
         if ($validator->fails()) {
